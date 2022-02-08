@@ -140,6 +140,104 @@
 
                 </div>
             </div>
+            <!--Switch-->
+            <div class="mb-4">
+                <h2>Escolha suas configurações:</h2>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" id="flex-switch">
+                    <label for="flex-switch" class="form-check-label">
+                        Você quer ativar isso ?
+                    </label>
+                </div>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" id="flex-switch-disabled" disabled>
+                    <label for="flex-switch-disabled" class="form-check-label">
+                        Switch desabilitado
+                    </label>
+                </div>
+            </div>
+            <!--Range-->
+            <div class="mb-4">
+                <h2>Pro favor responda:</h2>
+                <label for="probabilidade" class="form-label">Qual a propabilidade de voce indicar esse site</label>
+                <input type="range" class="form-range" min="0" max ='5' id="probabilidade">
+            </div>
+            <div class="mb-4">
+                <h2>Pro favor responda:</h2>
+                <label for="probabilidade2" class="form-label">Qual a propabilidade de voce indicar esse site</label>
+                <input type="range" class="form-range" min="0" max ='5' id="probabilidade2" disabled>
+            </div>
+            <!--Input groups-->
+            <div class="mb-4 input-group">
+               <span class="input-group-text" id="basic-addon">@</span>
+               <input type="email" class="form-control" placeholder="Digite seu email">
+            </div>
+            <div class="mb-4 input-group">
+                <span class="input-group-text" id="basic-addon2">#</span>
+                <input type="email" class="form-control" placeholder="Digite o canal">
+             </div>
+             <p>Quanto voce quer depositar? (sem centavos)</p>
+             <div class="mb-4 input-group">
+                <span class="input-group-text" id="basic-addon2">R$</span>
+                <input type="email" class="form-control" placeholder="Digite o valor de deposito">
+                <span class="input-group-text" id="basic-addon2">,00</span>
+             </div>
+             <!--Label flutuante-->
+             <h2>Faça o login para continuar</h2>
+             <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Insira seu email">
+                <label for="email">Insira seu email</label>
+             </div>
+             <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Insira sua senha">
+                <label for="email">Insira sua senha</label>
+             </div>
+             <input type="submit" class="btn btn-primary" value="Entrar">
+        </form>
+    </div>
+
+    <!--Layout + form -->
+    <div class="container col-6 mb-4">
+        <h2>Cadastre-se preenchendo o formulario</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="col-md-6">
+                <label for="password" class="form-label">senha:</label>
+                <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="col-md-4">
+                <label for="cep" class="form-label">CEP:</label>
+                <input type="text" class="form-control" placeholder="Digite seu CEP">
+            </div>
+            <div class="col-md-10">
+                <label for="rua" class="form-label">Rua:</label>
+                <input type="text" class="form-control" id="rua" placeholder="Digite sua rua">
+            </div>
+            <div class="col-md-2">
+                <label for="numero" class="form-label">número:</label>
+                <input type="text" class="form-control" id="numero" placeholder="Nº">
+            </div>
+            <div class="col-md-4">
+                <label for="cidade" class="form-label">Cidade:</label>
+                <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade">
+            </div>
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Estado:</label>
+                <input type="text" class="form-control" id="estado" placeholder="Digite seu estado">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="newslatter">
+                    <label for="newslatter" class="form-check-label">Receber newslatter</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <Cadastar type="submit" class="btn btn-primary">Cadastar</button>
+            </div>
+            
         </form>
     </div>
 
